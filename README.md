@@ -330,10 +330,7 @@ Css code
 
 
 
-
-
-
-
+<style>
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:wght@300&family=Poppins:wght@100&display=swap');
 
 * {
@@ -1159,7 +1156,7 @@ footer .copright {
 }
 
 
-
+</style>
 
 
 
@@ -1168,7 +1165,7 @@ footer .copright {
 Java script code 
 
 
-
+<script>
 
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
@@ -1197,3 +1194,4 @@ menuIcon.onclick = () => {
     navbar.classList.toggle('active');
 
 }
+</script>
